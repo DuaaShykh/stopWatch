@@ -1,0 +1,41 @@
+body{
+    text-align: center; 
+    background-color: palevioletred;
+}
+
+
+
+.main ul li{
+    list-style-type: none;
+    display: inline-block;
+    background-color: white;
+    width: 100px;
+    border-radius: 15px;
+    color: palevioletred;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 5%;
+    margin-left: 10px;
+    
+    }
+
+    .main h1{
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+        text-transform: uppercase;
+        margin-top: 8%;
+        font-size: 60px;
+        margin-left: 15px;
+    }
+
+    .btn{
+        color: palevioletred;
+        font-size: 20px;
+        margin-left: 10px;
+        margin-top: 15px;
+        box-shadow: 1px 1px 2px 2px gray;
+    
+    }
+    .btn:hover{
+        transform: scale(1.1);
+    }
